@@ -1485,7 +1485,7 @@ case 'restart': {
 break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 	    if (isBan) throw mess.ban
-                ZimBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/4e12bdfc0fbcbe7d14930.jpg' }, caption: `*Hi ${m.pushName}*\n\n *Thanks for your support we appreciate you we dont need your money, support us by subscribing to our youtube channel* *DRIPS OFC:* https://www.youtube.com/c/yasircomputertips ` }, { quoted: m })
+                ZimBotInc.sendMessage(m.chat, { image: { url: 'https://github.com/apnavpn/Apna-Bot/blob/zim-bot-inc/Zimbot/drips.jpg' }, caption: `*Hi ${m.pushName}*\n\n *Thanks for your support we appreciate you we dont need your money, support us by subscribing to our youtube channel* https://www.youtube.com/c/yasircomputertips ` }, { quoted: m })
             }
             break            
             case 'chat': {
